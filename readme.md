@@ -10,8 +10,10 @@ webpack5打包
 typescript4静态检查
 antDesign4组件库
 eslint代码规范
+react-router路由
+
 业务代码在src下
-用react-router路由
+
 接口请求用axios封装
 支持pdf文件下载
 角色权限控制写在src/layout/index.tsx文件中
