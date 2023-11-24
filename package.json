@@ -1,0 +1,57 @@
+{
+  "name": "healthrecipelconductsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js --mode production",
+    "start": "webpack serve --config ./webpack.dev.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.ucloudadmin.com:crd/healthrecipelconductsystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@types/react-dom": "^18.0.6",
+    "antd": "^4.22.6",
+    "axios": "^0.27.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.25",
+    "less-loader": "^11.0.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@types/react": "^18.2.27",
+    "@umijs/fabric": "^3.0.0",
+    "babel-loader": "^8.2.5",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "noImplicitAny": false
+}
