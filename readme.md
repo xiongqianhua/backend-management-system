@@ -1,6 +1,3 @@
-<!--
- * @Author: qianhua.xiong
--->
 # 需求背景
 要求一周时间内快速给xx业务开发一个sass系统平台，要求有角色权限控制，推荐模块，各种业务内容模块
 
@@ -26,8 +23,10 @@ react-router路由
 路由文件在src/router中
 
 # 项目安装
+node环境推荐v12.22.1
 npm install
 # 项目启动
 npm run start
 # 项目编译
 npm run build
+
